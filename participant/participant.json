@@ -1,0 +1,44 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-04-27 14:44:16.974055",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "athlete",
+  "discipline",
+  "date_and_time"
+ ],
+ "fields": [
+  {
+   "fieldname": "athlete",
+   "fieldtype": "Link",
+   "label": "Athlete",
+   "options": "athlete"
+  },
+  {
+   "fieldname": "discipline",
+   "fieldtype": "Link",
+   "label": "Discipline",
+   "mandatory_depends_on": " ",
+   "options": "Athletic event"
+  },
+  {
+   "fieldname": "date_and_time",
+   "fieldtype": "Datetime",
+   "label": "Date and Time"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-04-27 14:53:58.775680",
+ "modified_by": "Administrator",
+ "module": "Em Member",
+ "name": "participant",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

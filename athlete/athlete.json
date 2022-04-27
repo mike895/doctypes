@@ -1,0 +1,317 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "EAF-ATH-.######",
+ "creation": "2022-04-18 15:04:07.350584",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "first_name",
+  "mother_name",
+  "place_of_birth",
+  "column_break_4",
+  "middle_name",
+  "height",
+  "weight",
+  "column_break_8",
+  "last_name",
+  "medical_result",
+  "section_break_11",
+  "passport_id_number",
+  "passport_issue_date",
+  "passport_expire_date",
+  "passport_copy",
+  "column_break_15",
+  "image_17",
+  "section_break_16",
+  "blood_type",
+  "date_of_birth",
+  "phone_number",
+  "disciplineevent",
+  "column_break_20",
+  "age_category",
+  "gender",
+  "email",
+  "athlete_status",
+  "column_break_24",
+  "picture",
+  "image_29",
+  "additional_contact_section",
+  "table_32",
+  "section_break_33",
+  "honors",
+  "section_break_35",
+  "records"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "First Name",
+   "options": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "mother_name",
+   "fieldtype": "Data",
+   "label": "Mother Name ",
+   "options": "Name"
+  },
+  {
+   "fieldname": "medical_result",
+   "fieldtype": "Attach",
+   "label": "Medical Result",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 2,
+   "fieldname": "middle_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Middle Name",
+   "options": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "height",
+   "fieldtype": "Float",
+   "label": "Height",
+   "reqd": 1
+  },
+  {
+   "fieldname": "place_of_birth",
+   "fieldtype": "Data",
+   "label": "Place of Birth",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 2,
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Last Name",
+   "options": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Float",
+   "label": "Weight",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "passport_id_number",
+   "fieldtype": "Data",
+   "label": "Passport ID number"
+  },
+  {
+   "fieldname": "passport_issue_date",
+   "fieldtype": "Date",
+   "label": "Passport Issue Date"
+  },
+  {
+   "fieldname": "passport_expire_date",
+   "fieldtype": "Date",
+   "label": "Passport Expire Date"
+  },
+  {
+   "fieldname": "passport_copy",
+   "fieldtype": "Attach",
+   "label": "Passport Copy"
+  },
+  {
+   "fieldname": "section_break_16",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "blood_type",
+   "fieldtype": "Select",
+   "label": "Blood Type",
+   "options": "\nA+\nA-\nB+\nB-\nAB+\nAB-\nO+\nO-",
+   "reqd": 1
+  },
+  {
+   "fieldname": "age_category",
+   "fieldtype": "Data",
+   "label": "Age Category"
+  },
+  {
+   "fieldname": "athlete_status",
+   "fieldtype": "Select",
+   "label": "Athlete Status",
+   "options": "\nActive\nInactive",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth",
+   "reqd": 1
+  },
+  {
+   "columns": 2,
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Gender",
+   "options": "\nMale\nFemale",
+   "reqd": 1
+  },
+  {
+   "fieldname": "picture",
+   "fieldtype": "Attach Image",
+   "label": "Picture",
+   "reqd": 1
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Phone Number",
+   "options": "Phone",
+   "reqd": 1
+  },
+  {
+   "columns": 2,
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Email",
+   "options": "Email",
+   "reqd": 1
+  },
+  {
+   "fieldname": "additional_contact_section",
+   "fieldtype": "Section Break",
+   "label": "Additional Contact"
+  },
+  {
+   "fieldname": "disciplineevent",
+   "fieldtype": "Table MultiSelect",
+   "label": "Discipline(Event)",
+   "options": "Events athlete",
+   "reqd": 1
+  },
+  {
+   "fieldname": "honors",
+   "fieldtype": "Table",
+   "label": "Honors",
+   "options": "Honor table"
+  },
+  {
+   "fieldname": "column_break_20",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_24",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_33",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_35",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_15",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "image_17",
+   "fieldtype": "Image",
+   "options": "passport_copy",
+   "read_only": 1
+  },
+  {
+   "fieldname": "image_29",
+   "fieldtype": "Image",
+   "options": "picture",
+   "read_only": 1
+  },
+  {
+   "fieldname": "records",
+   "fieldtype": "Table",
+   "label": "Records",
+   "options": "Athlete Records"
+  },
+  {
+   "fieldname": "table_32",
+   "fieldtype": "Table",
+   "options": "Additional info"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-04-27 12:50:03.441802",
+ "modified_by": "Administrator",
+ "module": "Em Member",
+ "name": "athlete",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Encoder",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Viewer",
+   "share": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
